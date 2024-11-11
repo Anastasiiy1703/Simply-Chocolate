@@ -1,198 +1,336 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color:#434455;
-    text-decoration: none;
-    background-color: #FFFFFF;
+   ul, ol {
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 :root {
-    --primary-dark-color: #2E2F42;
-    --primary-black-color: #434455;
-    --primary-blue-color: #4D5AE5;
+    --primary-black-color: #000000;
+    --primary-orange-color:#FD9222;
     --primary-white-color:#FFFFFF;
-    --primary-button-color:#404BBF;
-    --primary-button-background: #F4F4FD;
+    --primary-violet-color: #1e1823;
+    --primary-text-color:#111111;
+    --primary-grey-color: #ffffffb2;
+    --primary-grey-text-color:rgba(255, 255, 255, 0.70);
+    --primary-input-color:rgba(255, 255, 255, 0.30);
+    --primary-dark-grey-color: rgba(17, 17, 17, 0.70);
+    }
+
+body{
+    background-color: blueviolet;
 }
 
-.link-logo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+
+.header-logo {
+    color: var(--primary-text-color)
+    font-family: Montserrat;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: none;
-    color:var(--primary-blue-color);
-}
-.link-logo:hover, link-logo:focus{
-    color:var(--primary-button-color);
-    background-color:var(--primary-button-color);
-}
-.logo-studio {
-    color:var(--primary-dark-color);
-}
-
-.list{
-    list-style: none;
-}
-
-.pages-link{
-font-weight: 500;
-font-size: 16px;
-letter-spacing: 0.02em;
-color:var(--primary-dark-color);
-text-decoration: none;
-line-height: 1.5;
-}
-.link{
-text-decoration: none;
-}
-.pages-link:hover, .pages-link:focus {
-    color:#404bbf;
-}
-.header-adress{
-    font-style: normal;
-}
-
-.adress-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--primary-black-color);
-    font-style: normal;
-    text-decoration: none;
-}
-.adress-link:hover, .adress-link:focus{
-    color:var(--primary-button-color);
-    background-color:var(--primary-button-color);
-}
-.hero-section{
-    background-color:var(--primary-dark-color);
-}
-
-.hero-section-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
+    line-height: 1,11; 
+    letter-spacing: -0.54px;
+}
+
+
+.header-simply {
+    color: var(--primary-text-color)
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1,11; 
+    letter-spacing: -0.54px;
+}
+
+.header-nav-list-item {
+    color: var(--primary-text-color)
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,14;
+    letter-spacing: -0.28px;
+    
+}
+
+.hero-desc{
+    color:var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,21;
+    letter-spacing: -0.84px;
+}
+
+.hero-buy-btn{
     color: var(--primary-white-color);
-    background-color: var(--primary-dark-color);
-text-align: center
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
 }
 
-.hero-button {
-    background-color: var(--primary-blue-color);
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+.hero-made-btn{
     color:var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.hero-button:hover, .hero-button:focus{
-    background-color:var(--primary-button-color);
-}
-
-.features-section-title {
+.hero-scroll{
+    color: var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--primary-dark-color);
+    line-height: 1,28;
+    letter-spacing: -0.42px;
 }
 
-.features-description {
+.benefits-item-title{
+    color: var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.benefits-item-desc{
+    color:var(--primary-grey-text-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-black-color);
+    line-height: normal;
+    letter-spacing: -0.28px;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--primary-dark-color);
+.blocks-title{
+    color: var(--primary-text-color);
     text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
 }
 
-.list-item{
-    background-color:var(--primary-white-color) ;
+.block-taste{
+    color: var(--primary-orange-color);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
 }
 
-.team-section {
-    background-color: var(--primary-button-background);
+.blocks-img-name-w{
+    color: var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,28;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
 }
 
-.team-section-title {
+.blocks-img-name-b{
+    color: var(--primary-text-color);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,28;
+letter-spacing: -0.28px;
+text-transform: uppercase;
+}
+
+.made-title{
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.made{
+    color: var(--primary-orange-color);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.made-desc{
+    color: var(--primary-text-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,33;
+}
+
+.made-list-item{
+    color: var(--primary-text-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,28;
+    letter-spacing: -0.28px;
+}
+
+.chocolate{
+    color: var(--primary-orange-color);
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1,16;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+
+.reviews-section-title{
+    color: var(--primary-text-color);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.reviews-item-title{
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,33;
+}
+
+.reviews-item-desc{
+    color: var(--primary-dark-grey-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,28;
+    letter-spacing: -0.28px;
+}
+
+.reviews-btn{
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-chocolade{
+    color: var(--primary-orange-color);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--primary-dark-color);
-    letter-spacing: 0.02em;
+    line-height: 1,21;
+    letter-spacing: -0.56px;
 }
 
-.team-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--primary-black-color);
-    letter-spacing: 0.02em;
-}
-
-.footer{
-    background-color:var(--primary-dark-color);
-}
-.footer-studio{
-    color:#f4f4fd;
-}
-
-.footer-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--primary-button-background);
-    background-color: var(--primary-dark-color);
-}
-
-.button-portfolio {
- font-weight: 500;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.04em;
- color: var(--primary-blue-color);
- background-color: var(--primary-button-background);
-  cursor: pointer;
- font-family: "Roboto", sans-serif;
-}
-
-.button-portfolio:hover, .button-portfolio:focus{
+.footer-title{
     color:var(--primary-white-color);
-    background-color:var(--primary-button-color);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,21;
+    letter-spacing: -0.56px;
 }
 
-.card-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color:var(--primary-dark-color);
+.footer-contact{
+    color:var(--primary-white-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,28;
 }
 
-.card-text {
+.footer-tel{
+    color:var(--primary-white-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-black-color);
+    line-height: 1,28;
+    letter-spacing: -0.28px;
+}
+
+.footer-mail{
+    color: var(--primary-white-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,28;
+    letter-spacing: -0.28px;
+}
+
+.footer-list-item{
+    color:var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,14;
+    letter-spacing: -0.28px;
+}
+
+.footer-input{
+    color:var(--primary-input-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px; 
+}
+
+.footer-btn{
+    color:var(--primary-white-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
